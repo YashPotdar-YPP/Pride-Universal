@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "prideuniversal",
-    "slug": "prideuniversal",
+    "slug": "pride-universal",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.codeimplants.prideuniversal"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb71d4a2-9310-4276-9afb-b66bc3b8d832"
+      }
+    },
+    "owner": "code-implants"
   }
 }
