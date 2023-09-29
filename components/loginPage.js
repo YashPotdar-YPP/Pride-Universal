@@ -4,17 +4,15 @@ import {
     View,
     TextInput,
     TouchableOpacity,
-    Alert,
     Image,
   } from "react-native";
-  import { useRef, useState } from "react";
-  import firebase from "firebase/compat/app";
   import "firebase/compat/auth";
+import { useState } from "react";
   
   export default function Login({ navigation }) {
-    const [code, setCode] = useState(""); // State for otp entered by user
+    //const [code, setCode] = useState(""); // State for otp entered by user
     const [number, setNumber] = useState(); // State for phone number input
-    const [verificationId, setVerificationId] = useState(null);
+    //const [verificationId, setVerificationId] = useState(null);
     // const Recaptcha = useRef(null);
   
     // const sendOtpMessage = async () => {
